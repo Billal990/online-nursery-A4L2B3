@@ -1,0 +1,19 @@
+.lg-md-header ul li{
+    position: relative;
+}
+.lg-md-header ul li a::after{
+    content: '';
+    background: #0A943F;
+    display: flex;
+    width: 0;
+    height: 3px;
+    transition: 0.3s;
+}
+
+.lg-md-header ul li a:hover::after{
+    content: '';
+    background: #0A943F;
+    display: flex;
+    width: 100%;
+    height: 3px;
+}
